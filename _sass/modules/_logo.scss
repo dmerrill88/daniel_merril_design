@@ -1,0 +1,27 @@
+// ==========================================================================
+// Site Logo
+// ==========================================================================
+
+.site-logo {
+	text-transform: uppercase;
+	font-weight: $font-weight--medium;
+	font-size: em(20px);
+	display: block;
+	text-align: center;
+	color: darken($color-primary, 5%);
+	@include mq(small) {
+	  margin-top: 20px;
+	  margin-bottom: 20px; 
+	}
+	@include mq(medium) {
+		float: left;
+		margin-top: 11px;
+	}
+}
+
+.logo-span {
+
+	font-weight: 600;
+
+
+}
